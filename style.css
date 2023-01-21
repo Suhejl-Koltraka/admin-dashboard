@@ -1,0 +1,107 @@
+.main {
+  position: absolute;
+  background-color: #363740;
+  width: 285px;
+  height: 360px;
+  margin: 30px 1155px 664px 30px;
+}
+
+.dashboard {
+  padding: 9px 84px 237px 35px;
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  left: 35px;
+  top: 69px;
+  /* Bold 19 (0.4 px) */
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  /* identical to box height */
+  letter-spacing: 0.4px;
+  /* sidebar / gray */
+  color: #a4a6b3;
+  opacity: 0.7;
+}
+
+.overviewback {
+  margin: 150px 1155px 810px 0px;
+  background-color: #9fa2b4;
+  width: 285px;
+  height: 56px;
+  opacity: 8%;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.overview {
+  margin: 0px 1222px 810px 0px;
+  position: absolute;
+  height: 20px;
+  left: 29px;
+  right: 67px;
+  top: calc(50% - 20px / 2 + 18px);
+  /* Reg 16 (0.2 px) */
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.2px;
+  /* accent / light */
+  color: #dde2ff;
+}
+
+.tickets {
+  margin: 33px 1219px 93px 0px;
+  width: 159px;
+  position: absolute;
+  height: 20px;
+  left: 32px;
+  right: 64px;
+  top: calc(50% - 20px / 2 + 15px);
+  /* Reg 16 (0.2 px) */
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.2px;
+  /* sidebar / gray */
+  color: #a4a6b3;
+}
+
+.link {
+  color: #a4a6b3;
+}
+
+.tasks {
+  padding: 43px 1px 10px 0px;
+  position: absolute;
+  width: 159px;
+  height: 40px;
+  left: 35px;
+  right: 61px;
+  top: calc(50% - 40px / 2 + 32px);
+  margin: 35px 61px 10px 0px;
+  /* Reg 16 (0.2 px) */
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  /* sidebar / gray */
+  color: #a4a6b3;
+}
+
+.linktasks {
+  color: #a4a6b3;
+}

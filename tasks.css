@@ -1,0 +1,366 @@
+body {
+  background-color: #363740;
+}
+
+.headingTasks {
+  position: absolute;
+  height: 100px;
+  left: 56px;
+  right: 1190px;
+  top: 59px;
+  /* Bold 40 (1 px) */
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.mainTasks {
+  box-sizing: border-box;
+  position: absolute;
+  height: 468px;
+  width: 546px;
+  left: 56px;
+  top: 196px;
+  bottom: 0px;
+  /* grayscale / white */
+  background-color: #ffffff;
+  /* grayscale / divider */
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+}
+
+.Tasks {
+  position: absolute;
+  height: 24px;
+  left: 32px;
+  right: 178px;
+  top: 32px;
+  /* Bold 19 (0.4 px) */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  /* identical to box height */
+  letter-spacing: 2px;
+  /* grayscale / black */
+  color: #252733;
+}
+
+.today {
+  position: absolute;
+  height: 16px;
+  left: 32px;
+  right: 178px;
+  top: 64px;
+  /* Reg 12 (0.1 px) */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.1px;
+  /* grayscale / gray */
+  color: #9fa2b4;
+}
+
+.viewAll {
+  position: absolute;
+  height: 20px;
+  width: 84px;
+  left: 0px;
+  right: 468px;
+  top: 90px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #3751ff;
+}
+
+.newtask {
+  position: absolute;
+  height: 20px;
+  left: 34px;
+  right: 181px;
+  top: 118px;
+  /* Semibold 14 (0.2 px) */
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.2px;
+  /* grayscale / gray light */
+  color: #c5c7cd;
+}
+
+.plus {
+  width: 24px;
+  height: 24px;
+  left: 34px;
+  top: 140px;
+  position: absolute;
+  background: #f0f1f7;
+  border-radius: 8px;
+  border: 0px solid #9fa2b4;
+  transform: rotate(90deg);
+}
+
+.innerplus {
+  position: absolute;
+  left: 7.2px;
+  top: -15px;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #9fa2b4;
+}
+
+.divider {
+  position: absolute;
+  width: 542px;
+  height: 0px;
+  left: 0px;
+  right: 0px;
+  top: 171px;
+
+  /* grayscale / divider */
+
+  border: 1px solid #dfe0eb;
+}
+
+.circle {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 32px;
+  right: 0%;
+  top: 212px;
+  bottom: 0%;
+  /* grayscale / gray light */
+  border: 2px solid #c5c7cd;
+  border-radius: 50%;
+}
+
+.finishupdate {
+  position: absolute;
+  height: 20px;
+  left: 32px;
+  right: 178px;
+  top: 232px;
+
+  /* Semibold 14 (0.2 px) */
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.2px;
+
+  /* grayscale / black */
+
+  color: #252733;
+}
+
+.urgent {
+  position: absolute;
+  left: 32px;
+  height: 24px;
+  width: 74px;
+  top: 252px;
+  border-radius: 8px;
+
+  /* yellow / default */
+
+  background: #fec400;
+  border-radius: 8px;
+}
+
+p {
+  position: absolute;
+  height: 14px;
+  left: 12px;
+  top: -5px;
+  /* Bold 11 (0.5 px, CAPS) */
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  /* grayscale / white */
+
+  color: #ffffff;
+}
+
+.circletwo {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 32px;
+  right: 0%;
+  top: 287px;
+  bottom: 0%;
+  /* grayscale / gray light */
+  border: 2px solid #c5c7cd;
+  border-radius: 50%;
+}
+.dividertwo {
+  top: 281px;
+  position: absolute;
+  width: 542px;
+  height: 0px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #dfe0eb;
+}
+
+.newticketexp {
+  position: absolute;
+  height: 20px;
+  left: 34px;
+  right: 186px;
+  top: 307px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.newmain {
+  position: absolute;
+  left: 34px;
+  right: 0px;
+  top: 327px;
+  bottom: 0px;
+  height: 24px;
+  width: 54px;
+  background: #29cc97;
+  border-radius: 8px;
+}
+
+.new {
+  position: absolute;
+  height: 14px;
+  left: 12px;
+  right: 12px;
+  top: -5px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.dividerthree {
+  position: absolute;
+  height: 0px;
+  left: 0px;
+  right: 0px;
+  top: 357px;
+
+  /* grayscale / divider */
+
+  border: 1px solid #dfe0eb;
+}
+
+.check {
+  position: absolute;
+  left: 34px;
+  top: 364px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  /* accent / default */
+  background: #3751ff;
+}
+
+img {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 7px;
+  bottom: 6px;
+}
+
+.updateticket {
+  position: absolute;
+  height: 20px;
+  left: 32px;
+  right: 178px;
+  top: 384px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.default {
+  position: absolute;
+  left: 34px;
+  right: 0px;
+  top: 405px;
+  bottom: 0px;
+  height: 24px;
+  width: 76px;
+  background: #f0f1f7;
+  border-radius: 8px;
+}
+
+.DEFAULT {
+  position: absolute;
+  height: 14px;
+  left: 12px;
+  right: 12px;
+  top: -5px;
+
+  /* Bold 11 (0.5 px, CAPS) */
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #9fa2b4;
+}
